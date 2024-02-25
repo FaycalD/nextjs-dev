@@ -1,0 +1,33 @@
+{
+  "name": "nextjs-multi-tenant-app",
+  "version": "1.0.0",
+  "description": "A Next.js multi-tenant application with AI chat support",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^11.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "vercel-ai-sdk": "^1.0.0",
+    "openai": "^0.0.3",
+    "anthropic": "^1.0.0",
+    "hugging-face": "^1.0.0",
+    "langchain": "^1.0.0",
+    "shadcn-ui": "^1.0.0",
+    "tailwindcss": "^2.2.16",
+    "radix-ui": "^0.1.0",
+    "phosphor-icons": "^1.0.0",
+    "supabase": "^1.21.0",
+    "supabase-react": "^0.13.1",
+    "postcss": "^8.3.6",
+    "autoprefixer": "^10.3.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.2.16",
+    "postcss-preset-env": "^6.7.0"
+  }
+}

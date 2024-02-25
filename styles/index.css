@@ -1,0 +1,45 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom styles for the chat UI */
+.chat-container {
+  @apply flex flex-col h-screen;
+}
+
+.chat-history {
+  @apply overflow-y-auto flex-grow;
+}
+
+.chat-input {
+  @apply border-t-2 border-gray-200 p-3;
+}
+
+/* Styles for the login and logout components */
+.login-container, .logout-container {
+  @apply flex justify-center items-center h-screen;
+}
+
+/* Styles for the message components */
+.message-container {
+  @apply flex items-start mb-2;
+}
+
+.message-content {
+  @apply ml-2 p-2 rounded-lg;
+}
+
+/* Styles for the model and tenant selector components */
+.selector-container {
+  @apply flex justify-between items-center p-3;
+}
+
+/* Styles for the loading component */
+.loading-container {
+  @apply flex justify-center items-center h-screen;
+}
+
+/* Styles for the server component */
+.server-component-container {
+  @apply flex flex-col;
+}
